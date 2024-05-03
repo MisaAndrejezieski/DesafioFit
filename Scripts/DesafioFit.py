@@ -1,4 +1,3 @@
-from fastapi import FastAPI, HTTPException, Query
 from fastapi_pagination import Page, add_pagination, paginate
 from sqlalchemy.exc import IntegrityError
 from typing import Optional
